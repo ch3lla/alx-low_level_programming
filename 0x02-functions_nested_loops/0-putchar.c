@@ -1,5 +1,7 @@
 #include "main.h"
 
+extern int _putchar(char c);
+
 /**
  * main - Check description
  * Description: It prints the word _putchar, followed by a new line.
@@ -12,9 +14,9 @@ int main(void)
 
   for (i = 0; i < 9; i++)
     {
-      extern _putchar(word[i]);
+      _putchar(word[i]);
     }
-  extern  _putchar('\n');
+  _putchar('\n');
 
   return (0);
 }
