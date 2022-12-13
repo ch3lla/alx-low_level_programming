@@ -12,9 +12,9 @@ int main(void)
 
   for (i = 0; i < 9; i++)
     {
-      _putchar(word[i]);
+      extern _putchar(word[i]);
     }
-  _putchar('\n');
+  extern  _putchar('\n');
 
   return (0);
 }
