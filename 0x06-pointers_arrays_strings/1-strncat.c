@@ -1,9 +1,7 @@
 #include "main.h"
-  
-
 
 /**
- * _strncat - concatenates the string using at most
+ * _strcat - concatenates the string using at most
  *             an inputted number of bytes from src
  * @dest: The string to be appended upon
  * @src: The string to be appended to dest
@@ -13,12 +11,11 @@
  */
 char *_strcat(char *dest, char *src, int n)
 {
-int index = 0, dest_len = 0;  
-while (dest[index++])    
+int index = 0, dest_len = 0;
+while (dest[index++])
 {
-dest_len++; 
+dest_len++;
 }
-  
 for (index = 0; src[index] && index < n; index++)
 {
 dest[dest_len++] = src[index];
