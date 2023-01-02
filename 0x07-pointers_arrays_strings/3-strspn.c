@@ -19,10 +19,10 @@ if (*(s + j) == *(accept + i))
 break;
 }
 }
+}
 if (*(accept + i) == '\0')
 {
 break:
-}
 }
 return (j);
 }
