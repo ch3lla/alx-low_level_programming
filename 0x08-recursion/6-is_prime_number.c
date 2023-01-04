@@ -14,7 +14,7 @@ return (0);
 }
 if (n)
 {
-n / n = 1;
+n / n == 1;
 return (1);
 }
 else
