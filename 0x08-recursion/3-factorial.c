@@ -20,10 +20,6 @@ return (1);
 }
 else
 {
-for (int i = 1; i <= n; i++)
-{
-int fact *= i;
-}
-return (fact);
+return (n * factorial(n - 1));
 }
 }
