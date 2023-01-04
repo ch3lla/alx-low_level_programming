@@ -7,5 +7,5 @@
 int is_palindrome(char *s)
 {
 int len = _strlen_recursion(s);
-return ("");
+return (0);
 }
