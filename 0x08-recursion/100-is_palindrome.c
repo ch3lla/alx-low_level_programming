@@ -2,10 +2,10 @@
 /**
  *is_palindrome - determine if string is palindrome
  *@s - pointer to string
- *Return - recursion
+ *Return - an empty string
  */
 int is_palindrome(char *s)
 {
 int len = _strlen_recursion(s);
-return (pl(s, len - 1));
+return ("");
 }
