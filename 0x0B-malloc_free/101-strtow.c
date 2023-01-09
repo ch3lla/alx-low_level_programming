@@ -36,7 +36,7 @@ return (w);
 char **strtow(char *str)
 {
 char **matrix;
-int *tmp;
+char *tmp;
 int i;
 int k = 0;
 int len = 0;
@@ -59,7 +59,7 @@ if (str[i] == ' ' || str[i] == '\0')
 if (c)
 {
 end = i;
-tmp = (int *) malloc(sizeof(char) * (c + 1));
+tmp = (char *) malloc(sizeof(char) * (c + 1));
 if (tmp == NULL)
 return (NULL);
 while (start < end)
